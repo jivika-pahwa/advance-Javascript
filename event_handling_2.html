@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+        <h2>Event handling in javascript</h2>
+        <input type="text" name="" value="" onkeydown="keydown()" onkeypress="keyup()" placeholder="enter your name"> <br>
+        <p id="para1" style="color:red;">status...</p>
+        <button type="button" name="click" id="click">click me !</button>
+        <p id="para2" style="color:blue;"></p>
+        <p id="para3" style="color:blue;"></p>
+
+
+  </body>
+  <script type="text/javascript">
+
+    let para1 = document.getElementById('para1');
+    let para2 = document.getElementById('para2');
+    let para3 = document.getElementById('para3');
+    let click = document.getElementById('click');
+
+    function keydown(){
+      para1.innerHTML = "key down......";
+    };
+    function keyup(){
+      para1.innerHTML = "key pressed......";
+    };
+
+    click.addEventListener('click',() =>{
+      setTimeout(function(){
+        para2.innerHTML = "button clicked before 2 sec" ;
+      },2000);
+    });
+
+    click.addEventListener('click',() =>{
+      setInterval(function(){
+        const date = new Date().toLocaleString();
+        para3.innerHTML =  date;
+      },1000);
+    });
+
+  </script>
+</html>

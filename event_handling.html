@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>JavaScript Events</title>
+  </head>
+  <body>
+        <h1>EventHandling in JavaScript</h1>
+
+        <!-- function call Event -->
+        <button type="button" onclick="myFunction()">Click Me</button>
+        <!-- inline alert -->
+        <button type="button" onclick="alert('hello events !! ');">Click Me again</button>
+        <!-- inline Event function -->
+        <a href="#" id="link">Click on the link</a> <br>
+        <!-- Event listener-->
+       <a href="#" id="link_listener">EventListener</a> <br><br>
+         <!-- timeout function -->
+       <button type="button" onclick="timeout()">Check timeout</button> <br><br>
+       <button type="button" onclick="timeinterval()">Check interval</button>
+        <p id="para"></p>
+        <p id="para_two">Time will appear here</p>
+
+        <!-- for inputs we use onchange event in js (similar to react) -->
+  </body>
+
+  <script type="text/javascript">
+
+      let para = document.getElementById('para');
+      let para_two = document.getElementById('para_two');
+      let link = document.getElementById('link');
+      let link_listener = document.getElementById('link_listener');
+        let myFunction = () => {
+          para.innerHTML = "button clicked !!";
+        }
+        link.onclick = function(){
+          alert('Inline calling an event');
+        }
+        link_listener.addEventListener('click', function(){
+          alert("event listener called");
+          console.log(event); // which event called
+          console.log(event.target); // get all the html attributes
+          console.log(event.type); // type of event -> mouse click events, key events
+        });
+        let timeout = function(){
+          setTimeout(function(){
+            alert("hello")
+          },5000);
+        };
+        let timeinterval = function(){
+          setInterval(function(){
+          para_two.innerHTML = new Date().toLocaleTimeString();
+          },1000);
+        };
+
+  </script>
+
+</html>
