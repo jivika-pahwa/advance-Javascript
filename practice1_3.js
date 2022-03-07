@@ -8,6 +8,8 @@ let array_to_obj = JSON.stringify(Object.assign({},obj_to_array));
 
 console.log(obj_to_array);
 console.log(array_to_obj);
+console.log(":: "+obj_to_array[0]);
+// console.log(":: "+array_to_obj[0][0].name);
 
 function sum(a){ // function currying -> return another function specially
   // when we want multiple arguements which further arrange into single arguement function
@@ -18,4 +20,4 @@ function sum(a){ // function currying -> return another function specially
   }
 };
 
-console.log(sum(2)(3)(5));
+// console.log(sum(2)(3)(5));

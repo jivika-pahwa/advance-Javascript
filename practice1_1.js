@@ -35,9 +35,9 @@ var sum = (a,b) => a+b;
 // console.log(sum(3,5));
 
 var arr = ["red","blue","black","orange","yellow"];
-arr.splice(arr.length,0,"grey"); // insert
+arr.splice(arr.length,0,"grey"); // insert ["red","blue","black","orange","yellow","grey"]
 arr.splice(arr.length-2,1,"Yellow"); // update
-// console.log(arr);
+console.log(arr);
 
 arr.forEach((item, i) => {
     // console.log(item);
@@ -46,7 +46,7 @@ arr.forEach((item, i) => {
 var arr2 = ["pen","pencils","eraser","sharpner"];
 var arr3 = ["sketch","paper","sheets","glitter pens"];
 var combine = [...arr,...arr2,...arr3]; // Spread Operator
-// console.log(combine);
+console.log(combine);
 
 // push and unshift
 arr2.push("colors");
