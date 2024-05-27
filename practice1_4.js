@@ -6,15 +6,15 @@ console.log(string.slice(0,10));
 let $age = 23;
 console.log($age+7);
 
-let a;
-let b = 12;
-let c = "string";
-let d = 12.78;
-let e = {
+let a; // undefined
+let b = 12; // number
+let c = "string"; // string
+let d = 12.78; // number
+let e = {  // object
   name:"jivika",
   age:23
 };
-let f = [1,2,3,4];
+let f = [1,2,3,4]; // object
 
 console.log(typeof(a));
 console.log(typeof(b));
@@ -32,7 +32,7 @@ console.log(true + true); // 1 + 1
 
 var age = null;
 console.log(age);
-console.log(typeof(age));
+console.log(typeof(age)); // type of null is an object
 
 
 var name ;

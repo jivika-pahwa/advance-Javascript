@@ -1,0 +1,718 @@
+
+.sub-tabs .btn {
+    padding: 11px 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #6B6982;
+    background: #FFFFFF;
+    border: 1px solid #D2D3ED;
+    border-radius: 47px;
+}
+
+.sub-tabs button.btn.btn-outline-primary {
+    background: #FFFFFF;
+    color: #5060EF;
+    border: 1px solid #5060EF;
+    box-shadow: 0px 0px 6px rgba(104, 107, 139, 0.37);
+    border-radius: 30px;
+}
+.sub-tabs button.btn.btn-outline-primary:hover {
+    color: #5060EF;
+}
+
+.sub-tabs .btn .badge {
+    background: #6B6982;
+    border-radius: 11px;
+    font-family: Arial;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 13px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+    padding: 2px 7px;
+    margin-left: 6px;
+}
+
+.sub-tabs .btn.btn.btn-outline-primary .badge {
+    background: #5060EF;
+}
+
+.navBack .task-grid__backbtn {
+    padding-top: 10px;
+}
+
+.actionCol {
+    display: flex;
+}
+
+.actionCol select {
+    background: #fff;
+    border: 1px solid #CACFFF;
+    border-radius: 4px;
+    min-width: 140px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #6B6982;
+    position: relative;
+    padding: 11px 14px;
+    height: 46px;
+}
+.actionCol select.bgGray {
+    background: #F4F5FF;
+}
+
+.actionCol .input-col {
+    background: #fff;
+    border: 1px solid #CACFFF;
+    border-radius: 4px;
+    position: relative;
+    padding: 13px 14px;
+}
+
+    .actionCol input.input-col {
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #6B6982;
+    }
+        .actionCol input.input-col:focus {
+            outline: 0;
+            box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, .25);
+        }
+
+    
+.actionCol .date-div {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: normal;
+    color: #2A2D43;
+    min-width: 200px;
+}
+
+
+.actionCol .date-div .iconAside {
+    position: absolute;
+    right: 14px;
+}
+
+.actionCol button.btn-outline-secondary {
+    background: #F4F5FF;
+    border: 1px solid #5060EF;
+    border-radius: 4px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #5060EF;
+}
+
+.actionCol .input-group select {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.actionCol .input-group .selectWrap {
+    position: relative;
+}
+.actionCol .selectWrap select {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background: none;
+}
+
+.actionCol select:focus {
+    outline: 0;
+}
+
+.actionCol select:focus-visible {
+    outline: 1;
+}
+
+.actionCol .input-group .selectWrap:before {
+    position: absolute;
+    font-family: 'fp-common-icon' !important;
+    speak: none;
+    font-style: normal;
+    content: "\e685";
+    right: 20px;
+    top: 12px;
+    color: #5060EF;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.filter_buttons .apply-btn .btn-outline-primary {
+    color: #fff;
+    border-color: #5060ef;
+    font-size: .8rem;
+    background: #5060EF;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    height: 46px;
+}
+
+.filter_buttons button.btn-outline-primary {
+    padding: 10px 14px;
+    height: 46px;
+}
+
+.text-blue {
+    color: #5060EF !important;
+}
+
+.text-yellow {
+    color: #F47D4A !important;
+}
+
+.float-right {
+    float: right;
+}
+
+/* Start - page Review */
+
+
+.postion-relative {
+    position: relative;
+    display: inline-block;
+  }
+  
+  
+  .tabClose {
+    right:.8rem;
+    top: 0.513rem;
+    position: absolute;
+    cursor: pointer;
+    color: #fff;
+    font-size: 0.625rem;
+  }
+  .btn-plus + .ic-plus{
+    position: absolute;
+    cursor: pointer;
+    left:.6rem;
+    top: 0.513rem;
+    
+  }
+  
+  .oaptabs {
+    cursor: pointer;
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
+    opacity: 1;
+    background: #e2e6ed 0% 0% no-repeat padding-box;
+  
+    font-size: .75rem;
+  }
+  
+  .oaptabs .tabClose {
+    color: #384564 !important;
+  }
+  
+  .booking-id {
+    background: #384564;
+    color: #fff;
+  }
+  
+  .btn-plus {
+    background: #e2e6ed 0% 0% no-repeat padding-box;
+    display: inline-block;
+  
+  }
+  
+  .Faa-varification {
+    background: #212c45;
+    min-height:40px;
+    border-top: 0.063rem solid #727070;
+    border-top-right-radius: 0.625rem;
+    color: #fff;
+    padding-bottom: 0px;
+    position: relative;
+  }
+  .is-intent .Faa-varification{
+    min-height: 20px;
+  }
+  .faa-form{
+    font-size: .8rem;
+  }
+  .faa-form .form-control{
+    font-size: .75rem;
+  }
+  .faa-form label{
+    color:rgba(0,0,0,.7)
+  }
+  .Faa-varification-tabs {
+    background: #0d172f;
+    height: 32px;
+  }
+  
+  .Faa-varification .faa-header,
+  .Faa-varification .faa-process {
+    margin-top: 0.2rem;
+  }
+  
+  .Faa-varification .faa-header {
+    font-size: .9rem;
+  }
+  .Faa-varification .faa-header span{
+    font-size: .65rem;
+    line-height: .5rem;
+    display: block;
+    margin-bottom: .35rem;
+  }
+  
+  .Faa-varification .faa-process {
+    color: #d8dde5;
+    background: #384565;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+    padding: 0.125rem 1.125rem;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  
+  .Faa-varification-tabs .nav-pills .nav-link {
+    background-color: #565c6d;
+    margin-right: 0.3rem;
+    padding: 0.1rem .5rem;
+    font-size: 0.75rem;
+    font-size: .7rem;
+    letter-spacing: 0rem;
+    color: #ffffff;
+    opacity: 1;
+  }
+  
+.cbdm-content {
+  display: flex;
+}
+
+.all-booking .cbdm-content > * {
+    min-height: 500px;
+    padding-bottom: 1rem;
+}
+
+  .sidebar_cbdm {
+    padding: 0;
+    max-width: 240px;
+    min-width: auto;
+    width: 240px;
+}
+
+.mainContent {
+    width: inherit;
+    background-color: #f0f0f0;
+    border-radius: 0;
+    padding: 0;
+}
+
+
+
+
+.statusTxt {
+  font-size: 14px;
+  vertical-align: middle;
+}
+.leftPanel-header {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  color: #0D172F;
+}
+
+ul.ul_items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+ul.ul_items li {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  color: #757575;
+  margin: 15px 0;
+  padding: 3px 0 3px 34px;
+  position: relative;
+}
+span.srNo {
+  background: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  padding: 3px 7px;
+  border-radius: 40px;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  color: #CCCCCC;
+  top: -2px;
+}
+ul.ul_items li.active span.srNo {
+  color: #fff;
+  background: #5060EF;
+  border: 1px solid #405FDE;
+  
+}
+ul.ul_items li.active {
+  font-weight: bold;
+  color: #0D172F;
+}
+ul.ul_items:before {
+  content: "";
+  background: #c5c0c0;
+  width: 1px;
+  display: block;
+  position: absolute;
+  height: 160px;
+  left: 12px;
+}
+
+
+
+
+
+/*Boking Detail Start*/
+
+.booking-summary {
+  margin: 20px 60px 20px 30px;
+}
+.booking-Details-sec {
+  background: #FFFFFF;
+  border-radius: 4px;
+}
+.booking-Details-sec.active {
+  border: 1px solid #5060EF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.04);
+}
+
+.booking-details .booking-header {
+  background: #FFFFFF;
+  padding: 10px 24px;
+  border-bottom: 1px solid #FFFFFF;
+}
+
+/* .booking-details .booking-header strong {
+  font-size:17px;
+} */
+
+.booking-details .booking-header .status-Active {
+  background: #fff 0% 0% no-repeat padding-box;
+  border: 1px solid #42b37a;
+  border-radius: 4px;
+  opacity: 1;
+  padding: 4px 12px;
+  font-weight: bold;
+  font-size: 12px;
+  color:#42b37a;
+}
+
+.collapse.show {
+  border-top: 1px solid #D2D3ED;
+  padding-top: 10px;
+}
+
+.panelTitle {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #2A2D43;
+}
+
+
+.guide-head {
+  color: #f6e587;
+}
+
+.arrAction a {
+  position: absolute;
+  right: -24px;
+  padding-top: 4px;
+}
+
+.arrAction a .ic-triangles-u,
+.arrAction a .ic-triangles-d {
+  font-size: 16px;
+  font-weight: 600;
+  color: #5060EF;
+}
+
+.ic-yes {
+  background: #3db278;
+  color: #fff;
+  border-radius: 30px;
+  font-size: 10px;
+  padding: 3px;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+.statusTxt {
+  font-size: 14px;
+  vertical-align: middle;
+}
+
+
+.card a[aria-expanded=false] .ic-triangles-u,
+.arrAction a[aria-expanded=false] .ic-triangles-u {
+    display: none;
+}
+
+.card a[aria-expanded=true] .ic-triangles-d, 
+.arrAction a[aria-expanded=true] .ic-triangles-d {
+    display: none;
+}
+
+.table-heading {
+  background: #E2E6ED;
+  border-radius: 4px;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #232E48;
+  padding: 7px 14px;
+  margin-bottom: 10px;
+}
+
+.tableSection table.table-small td {
+  border: 0;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #232E48;
+  padding: 0.4rem 0.3rem;
+}
+
+.tableSection table.table-small tr td:first-child {
+  color: #232E48;
+  font-weight: 400;
+}
+
+
+.table-tag-green {
+  background: #CCF3E0;
+  border-radius: 4px;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #299961;
+  padding: 4px 10px;
+}
+
+.table-tag-red {
+  background: #FFE7E7;
+  border-radius: 4px;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #D94D4D;
+  padding: 4px 10px;
+}
+
+a.linkNav {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  color: #FFFFFF;
+}
+
+/* End - page Review */
+
+
+
+
+/* Start - Case Action */
+
+ul.ul_items li.complete {
+  color: #757575;
+}
+
+ul.ul_items li.complete span.srNo {
+  border: 1px solid #3EB278;
+  color: #3EB278;
+  font-weight: bold;
+}
+
+.head_gray {
+  border-radius: 4px;
+  background: #F2F2F2;
+  padding: 14px 22px;
+  color: #384564;
+  font-family: Arial;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+
+.caseContent, .caseContent ul li {
+  color: #2A2D43;
+  font-family: Arial;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.caseContent ul li {
+  line-height: 20px;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.panel-footerSection {
+  background: #FFFFFF;
+  padding: 10px 24px;
+  border-radius: 4px;
+}
+
+button.btn.btn-orange {
+  border-radius: 4px;
+  background: #DD7C34;
+  padding: 10px 59px;
+  border: none;
+  color: #FFF;
+  font-family: Arial;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  min-width: 140px;
+}
+
+button.btn.btn-orange:hover {
+  background: #d65e04;
+  color: #FFF;
+}
+
+.selectAction {
+  display: flex;
+  align-items: center;
+}
+
+.fieldText {
+  color: #384564;
+  font-family: Arial;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* End - Case Action */
+
+
+/* Start - Cover Latter */
+
+.coverLogoHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.content_CL {
+  background: #F8F8F8;
+  border: 1px solid #BFC4F1;
+  border-radius: 4px;
+  padding: 10px;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.8rem;
+  line-height: 18px;
+  color: #677088;
+  overflow: auto;
+}
+
+.content_CL p {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.8rem;
+  line-height: 18px;
+  color: #677088;
+}
+
+.refNo {
+  font-weight: 400;
+  font-size: .8rem;
+  color: #677088;
+}
+
+.content_CL textarea {
+  width: 100%;
+  height: 150px;
+  background: #F8F8F8;
+  border: 1px solid #BFC4F1;
+  border-radius: 4px;
+  height: 10rem;
+  border: none;
+}
+
+
+/* End - Cover Latter */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -35,4 +35,4 @@ let anonymous = () => {
 };
 anonymous();
 
-***************** Practice Ends *******************
+// ***************** Practice Ends *******************
