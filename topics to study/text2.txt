@@ -1,0 +1,35 @@
+Dependency Inversion Principle
+
+Business logic (service/concrete class) relies on Interface rather than any specific implemented class
+
+Eg: class business logic : IDataAccess
+
+such called abstraction for enabling flexiblity and diff implementation of IDataAccess to be injected,
+easy to test as well
+
+
+Dependency injection -> implements dependency inversion priciple. technique where objects receive their dependencies from external source
+
+public class BusinessLogic
+{
+    private readonly IDataAccess _dataAccess;
+
+    public BusinessLogic(IDataAccess dataAccess)
+    {
+        _dataAccess = dataAccess;
+    }
+
+    // Methods using _dataAccess
+}
+
+there are 3 scopes of DI
+1. transient
+2. Singleton
+3. Scoped
+
+
+By combining the Dependency Inversion Principle and Dependency Injection, you can create highly decoupled and testable code. 
+The Dependency Inversion Principle ensures that modules depend on abstractions, 
+while Dependency Injection provides a way to supply these abstractions to the modules at runtime.
+
+source : https://malshikay.medium.com/dependency-inversion-principle-vs-dependency-injection-eca5e69a7158

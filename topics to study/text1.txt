@@ -1,0 +1,37 @@
+Go Through :
+System Design
+OOPS Concept
+DSA - Introduction (LinkedList Array Queue)
+CRUD Operation
+DBMS
+C, C++ Questions from IndiaBix
+
+************************************
+
+Tech Stack Worked on till now :
+.NET Framework (version 7, latest 8)
+C# Programming Language (support 11, latest 12)
+React, ES6, Redux
+MicroFrontend & MicroServices
+SQL - Stored Procedure
+API Testing - Swagger & Postman
+Unit Testing (.Net - MS Class, React - Jest testing F/W )
+JWT Authentication
+
+************************************
+
+Coding Questions (Geeks - Interview Related)
+Mostly Asked Question :
+swap of 2 numbers
+1. add/subt
+2. bitwise XOR
+
+***********************************
+
+Source : 
+apnacollegeofficial - youtube
+Interview bit
+IndiaBix App
+Geeks
+Medium
+
